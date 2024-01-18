@@ -1,0 +1,35 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+    .top{
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+        
+    } 
+    .bottom{
+        display: flex;        
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        .media, .event, .article{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+            img{
+                height: 30px;
+                width: 30px;
+            }
+        }
+    }  
+
+}

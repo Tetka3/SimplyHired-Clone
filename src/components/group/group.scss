@@ -1,0 +1,53 @@
+.group{
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(224, 223, 223);    
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    .first{
+        margin-top: 10px;
+        padding: 10px;
+        cursor: pointer;
+        color: blue;
+        li{
+            list-style: none;
+        }   
+    }
+    .second{
+        margin-top: 10px;
+        padding: 10px;
+        cursor: pointer;
+        color: blue;
+        display: flex;
+        justify-content: space-between;
+        li{
+            list-style: none;
+        }
+        button{
+            border: none;
+            
+            &:hover {border-radius: 50%;
+            padding: 5px;
+            }
+        }   
+    }
+    .third{
+        margin-top: 10px;
+        padding: 10px;
+        cursor: pointer;
+        color: blue;
+        li{
+            list-style: none;
+        }   
+        
+    }
+    .fourth{
+        display: flex;
+        justify-content: center;
+        align-items: center;        
+        height: 40px;
+    }
+}

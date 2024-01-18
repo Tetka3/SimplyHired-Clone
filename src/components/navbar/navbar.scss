@@ -1,0 +1,69 @@
+.navbar{
+    display: flex;
+    height: 50px;
+    background-color: rgb(255,255,255);
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 5px;
+    
+    .left{
+        display: flex;
+        flex: 2;        
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+        border-bottom: 1px solid rgb(221, 219, 219);
+        
+        
+        .search, .home, .myNetwork, .jobs, .messaging, .notifications, .me{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                height: 25px;
+                width: 30px;                
+            }
+            p{
+                font-size: 12px;
+                margin-top: 5px;
+                font-weight: 100; 
+            }  
+                    
+        }
+        .search, .home.active, .myNetwork, .jobs, .messaging, .notifications, .me{
+            border-bottom: 3px solid black;
+        }
+    }
+    .right{
+        flex: 1;
+        display: flex;
+        border-bottom: 1px solid rgb(221, 219, 219);
+        border-left: 1px solid rgb(221, 219, 219);
+        padding-left: 20px;
+        .business{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                height: 25px;
+                width: 30px;                
+            }
+            p{
+                font-size: 12px;
+                margin-top: 5px;
+                font-weight: 100; 
+                text-align: center;
+            }
+        }
+        .offer{
+            text-align: center;
+            padding-left: 20px;
+            padding-top: 5px;
+            font-size: 14px;
+            li{
+                text-decoration: underline;
+                list-style: none;
+            }
+        }
+    }
+}
